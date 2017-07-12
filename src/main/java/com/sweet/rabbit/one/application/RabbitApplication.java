@@ -1,12 +1,12 @@
-package com.example.rabbitdemo;
+package com.sweet.rabbit.one.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RabbitDemoApplication {
+public class RabbitApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RabbitDemoApplication.class, args);
+		SpringApplication.run(RabbitApplication.class, args);
 	}
 }

@@ -1,7 +1,6 @@
-package com.example.rabbitdemo;
+package com.sweet.rabbit.one.recv;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.sweet.rabbit.PrintUtils;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
@@ -15,11 +14,8 @@ import org.springframework.stereotype.Component;
 @RabbitListener(queues = "white")
 public class Receiver {
 
-	private static final Logger logger = LoggerFactory.getLogger(Receiver.class);
-
 	@RabbitHandler
 	public void receive(String message) {
-		logger.info("Receive message from rabbitmq, the message is : {}", message);
-
+		PrintUtils.printWithGreenColor("<=== Receive message from rabbitmq. ({})", message);
 	}
 }

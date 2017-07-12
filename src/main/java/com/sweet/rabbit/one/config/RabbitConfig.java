@@ -1,4 +1,4 @@
-package com.example.rabbitdemo;
+package com.sweet.rabbit.one.config;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
@@ -12,9 +12,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitConfig {
 
-
 	@Bean
 	public Queue whiteQueue() {
 		return new Queue("white");
 	}
+
 }
