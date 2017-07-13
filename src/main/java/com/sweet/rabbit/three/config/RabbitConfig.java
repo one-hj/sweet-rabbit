@@ -30,7 +30,7 @@ public class RabbitConfig {
 
 	@Bean
 	FanoutExchange logExchange() {
-		return new FanoutExchange("log-exchange");
+		return new FanoutExchange("color-exchange");
 	}
 
 	@Bean

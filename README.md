@@ -75,11 +75,3 @@ Receiving messages based on a pattern (topics)
 https://www.rabbitmq.com/tutorials/tutorial-five-java.html
 ([译文](http://blog.720ui.com/2017/rabbitmq_action_05_topics/))
 
-
-### RPC
-
-`com.sweet.rabbit.six`
-
-Request/reply pattern example
-
-https://www.rabbitmq.com/tutorials/tutorial-six-java.html

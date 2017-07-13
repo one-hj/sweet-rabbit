@@ -16,7 +16,7 @@ import java.util.stream.IntStream;
  */
 @RunWith(SpringRunner.class)
 @SpringBootApplication
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
+@SpringBootTest
 public class SenderTest {
 
 	@Autowired

@@ -14,6 +14,15 @@ public class PrintUtils {
 		printWithColor(AnsiColor.GREEN, format, arguments);
 	}
 
+	public static void printWithRedColor(Object object) {
+		printWithColor(AnsiColor.RED, object);
+	}
+
+	public static void printWithRedColor(String format, Object... arguments) {
+		printWithColor(AnsiColor.RED, format, arguments);
+	}
+
+
 	public static void printWithBlueColor(Object object) {
 		printWithColor(AnsiColor.BLUE, object);
 	}
