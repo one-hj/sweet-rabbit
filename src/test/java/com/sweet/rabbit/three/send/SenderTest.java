@@ -1,4 +1,4 @@
-package com.sweet.rabbit.two.send;
+package com.sweet.rabbit.three.send;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.stream.IntStream;
 
 /**
- * Created by hj on 2017/7/12.
+ * Created by hj on 2017/7/13.
  *
  * @author hj
  */
@@ -23,9 +23,10 @@ public class SenderTest {
 	Sender sender;
 
 	@Test
-	public void sendMessage() {
-		IntStream.range(1, 10).forEach(i -> {
+	public void send() throws Exception {
+		IntStream.range(1, 5).forEach(i -> {
 			sender.send(i);
 		});
 	}
+
 }

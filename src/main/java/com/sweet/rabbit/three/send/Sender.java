@@ -1,4 +1,4 @@
-package com.sweet.rabbit.two.send;
+package com.sweet.rabbit.three.send;
 
 import com.sweet.rabbit.PrintUtils;
 import org.springframework.amqp.core.AmqpTemplate;
@@ -17,10 +17,10 @@ public class Sender {
 	AmqpTemplate amqpTemplate;
 
 	public void send(int no) {
-		String message = "I am sweet two message (" + no + ")";
+		String message = "I am sweet three message (" + no + ")";
 
-		amqpTemplate.convertAndSend("white", message);
+		amqpTemplate.convertAndSend("log-exchange", "", message);
+
 		PrintUtils.printWithBlueColor("===> Send message to rabbitmq. ({})", message);
-
 	}
 }

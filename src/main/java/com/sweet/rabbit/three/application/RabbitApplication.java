@@ -1,7 +1,7 @@
-package com.sweet.rabbit.two.application;
+package com.sweet.rabbit.three.application;
 
-import com.sweet.rabbit.two.config.RabbitConfig;
-import com.sweet.rabbit.two.recv.Receiver;
+import com.sweet.rabbit.three.config.RabbitConfig;
+import com.sweet.rabbit.three.recv.Receiver;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
