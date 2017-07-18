@@ -48,7 +48,7 @@ Distributing tasks among workers
 
 http://www.rabbitmq.com/tutorials/tutorial-two-java.html
 
-[com.sweet.rabbit.two](/tree/master/src/main/java/com/sweet/rabbit/two)
+[com.sweet.rabbit.two](/src/main/java/com/sweet/rabbit/two)
 
 
 ### 3. Publish/Subscribe
