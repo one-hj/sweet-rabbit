@@ -1,33 +1,9 @@
 # Sweet RabbitMQ
 
-# Reference
-
-[RabbitMQ](https://www.rabbitmq.com)
-
-[CloudAMQP](https://customer.cloudamqp.com/instance)
+> The RabbitMQ tutorials using SpringBoot
 
 
-# Spring Support
-
-[Spring AMQP Project](http://projects.spring.io/spring-amqp)
-
-[Spring AMQP GitHub](https://github.com/spring-projects/spring-amqp)
-
-
-[Spring AMQP Reference](http://docs.spring.io/spring-amqp/docs/current/reference/htmlsingle/)
-
-[Messaging with RabbitMQ Guide](https://spring.io/guides/gs/messaging-rabbitmq/)
-
-[Spring RabbitMQ Binder Reference](http://docs.spring.io/spring-cloud-stream/docs/Elmhurst.BUILD-SNAPSHOT/reference/htmlsingle/#_rabbitmq_binder)
-
-
-
-[Messaging With Spring AMQP (By Baeldung)](http://www.baeldung.com/spring-amqp)
-
-[RabbitMQ Message Dispatching with Spring AMQP(By Baeldung)](http://www.baeldung.com/rabbitmq-spring-amqp)
-
-
-# RabbitMQ Tutorials with SpringBoot
+## Tutorials
 
 ### 1. Hello World
 
@@ -82,3 +58,30 @@ Receiving messages based on a pattern (topics)
 https://www.rabbitmq.com/tutorials/tutorial-five-java.html
 
 package [com.sweet.rabbit.five](src/main/java/com/sweet/rabbit/five)
+
+
+# Reference
+
+[RabbitMQ](https://www.rabbitmq.com)
+
+[CloudAMQP](https://customer.cloudamqp.com/instance)
+
+
+# Spring Support
+
+[Spring AMQP Project](http://projects.spring.io/spring-amqp)
+
+[Spring AMQP GitHub](https://github.com/spring-projects/spring-amqp)
+
+
+[Spring AMQP Reference](http://docs.spring.io/spring-amqp/docs/current/reference/htmlsingle/)
+
+[Messaging with RabbitMQ Guide](https://spring.io/guides/gs/messaging-rabbitmq/)
+
+[Spring RabbitMQ Binder Reference](http://docs.spring.io/spring-cloud-stream/docs/Elmhurst.BUILD-SNAPSHOT/reference/htmlsingle/#_rabbitmq_binder)
+
+
+
+[Messaging With Spring AMQP (By Baeldung)](http://www.baeldung.com/spring-amqp)
+
+[RabbitMQ Message Dispatching with Spring AMQP(By Baeldung)](http://www.baeldung.com/rabbitmq-spring-amqp)
