@@ -37,7 +37,7 @@ Send and receive messages from a named queue.
 
 https://www.rabbitmq.com/tutorials/tutorial-one-java.html
 
-[com.sweet.rabbit.one](/tree/master/src/main/java/com/sweet/rabbit/one)
+package [com.sweet.rabbit.one](src/main/java/com/sweet/rabbit/one)
 
 ### 2. Work queues
 
@@ -48,7 +48,7 @@ Distributing tasks among workers
 
 http://www.rabbitmq.com/tutorials/tutorial-two-java.html
 
-[com.sweet.rabbit.two](/src/main/java/com/sweet/rabbit/two)
+package [com.sweet.rabbit.two](src/main/java/com/sweet/rabbit/two)
 
 
 ### 3. Publish/Subscribe
@@ -59,7 +59,7 @@ Sending messages to many consumers at once
 
 http://www.rabbitmq.com/tutorials/tutorial-three-java.html
 
-[com.sweet.rabbit.three](/tree/master/src/main/java/com/sweet/rabbit/three)
+package [com.sweet.rabbit.three](src/main/java/com/sweet/rabbit/three)
 
 
 ### 4. Routing
@@ -70,7 +70,7 @@ Receiving messages selectively
 
 https://www.rabbitmq.com/tutorials/tutorial-four-java.html
 
-[com.sweet.rabbit.four](/tree/master/src/main/java/com/sweet/rabbit/four)
+package [com.sweet.rabbit.four](src/main/java/com/sweet/rabbit/four)
 
 
 ### 5. Topics
@@ -81,4 +81,4 @@ Receiving messages based on a pattern (topics)
 
 https://www.rabbitmq.com/tutorials/tutorial-five-java.html
 
-[com.sweet.rabbit.five](/tree/master/src/main/java/com/sweet/rabbit/five)
+package [com.sweet.rabbit.five](src/main/java/com/sweet/rabbit/five)
