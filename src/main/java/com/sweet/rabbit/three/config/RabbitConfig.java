@@ -19,12 +19,12 @@ import java.util.stream.Collectors;
 public class RabbitConfig {
 
 	@Bean
-	Queue consoleQueue() {
+	Queue greenQueue() {
 		return new Queue("green");
 	}
 
 	@Bean
-	Queue fileQueue() {
+	Queue blueQueue() {
 		return new Queue("blue");
 	}
 
