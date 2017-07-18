@@ -32,6 +32,7 @@
 ### 1. Hello World
 
 Send and receive messages from a named queue.
+
 ![one](https://www.rabbitmq.com/img/tutorials/python-one.png)
 
 https://www.rabbitmq.com/tutorials/tutorial-one-java.html
